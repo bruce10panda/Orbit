@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <img src="assets/logo.png" class="logo">
+    <div class="search-form">
+        <form id="searchForm" method="get" action="results.html" class="search-form" onsubmit="return validateSearch()">
+            <input type="hidden" name="cx" value="841e5da3551984bd8">
+            <div class="search-bar">
+                <input id="searchInput" type="text" name="q" autofocus>
+                <img src="assets/search.svg" class="search-icon" id="searchIcon">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="searchcheck.js"></script>
+</body>
+</html>

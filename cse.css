@@ -1,0 +1,32 @@
+.results {
+    width: 80vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .results {
+        width: 95vw;
+        margin: auto;
+    }
+}
+
+.gsc-above-wrapper-area, .gsc-tabsArea {
+    display: none;
+}
+
+.gs-spelling, .gs-result {
+    color: white !important;
+}
+
+.gs-title {
+    font-family: 'roboto' !important;
+}
+
+.gs-title:hover {
+    text-decoration: underline !important;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, span, div, li, a, input, button, textarea, .gs-title {
+    font-size: calc(100% + 0.4px);
+}
